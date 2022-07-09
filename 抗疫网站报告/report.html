@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+  <header class="logobox">
+
+    <div class="logo">
+      <img src="./images/logo.jpg" alt="">
+    </div>
+    <div class="bannerhead">
+      <img src="./images/bg_ban.jpg" alt="" width="600">
+    </div>
+  </header>
+
+
+  <div class="nav">
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="intro.html">抗疫人物</a></li>
+      <li><a href="about.html">疫情介绍</a></li>
+      <li><a href="login.html">用户登陆</a></li>
+      <li><a href="res.html">用户注册</a></li>
+      <li><a href="report.html">网站报告</a></li>
+    </ul>
+  </div>
+  <div class="layout">
+
+    <div class="report">
+      <h1>抗疫新闻网站设计与开发</h1>
+      <div class="jieshaott">
+        网站主题
+
+      </div>
+      <div class="reporttext">
+        <p>
+          Internet的蓬勃发展，使新闻的传播方式发生了巨大的变化，互联网所容纳的信息量大、内容丰富、信息及时、准确，更有相关信息的全面的介绍与比较，大大地方便了人们的阅读，因此在短短几年的时间里，互联网便济身于众多媒体之间，并具有相当一部分媒体人群。这次网站我开发一套基于HTML的新闻发布系统。该系统是为方便广大用户上网浏览而开发的。使用户能够在任何地点任何时间都可以快速浏览到感兴趣的新闻信息。
+          目前全国新增本土感染者仍在快速增加，疫情防控形势依然严峻复杂。要坚决采取果断措施，疫情发现要更早，疫情处置要更快，落实防控措施要更实，服务群众要更到位，尽快遏制疫情扩散蔓延势头。因此网站建设与维护在Internet应用上的地位显而易见，它已成为人们信息化建设中的重要组成部分，从而倍受人们的重视。为了让更多更容易的了解到相关疫情信息。所以，开发疫情资讯的网站是必须的。 
+        </p>
+      </div>
+    </div>
+    <div class="jieshaott">
+      网站开发过程
+
+    </div>
+    <div class="reporttext">
+      <h3>css样式</h3>
+      <p> 在制作一个网站的时候，首先我们要做的是创建一个“站点”，站点可以使网站的结构清晰，内容完整地展现在我们面前，避免了以后复杂的管理。
+        打开Dreamweaver软件，从菜单中选择“站点/新建站点”在打开的对话框中填写网站目录和指定文件夹，输入站点名称以及存放图像的位置。然后在这个网站站点下新建js文件夹、图片images文件夹、CSS文件夹等把各种相应的文件分别存放文件夹当中。
+      </p>
+      <h3>建立站点</h3>
+      <p>
+        为了给用户一个好的设计效果图的展现，整个网站的风格与结构实现页面统一，那么使用Css技术是必须的。由于有不同的浏览器开发商，所以浏览器对HTML的解析也不尽相同，写Css代码之前，我们首先要做的初始所有HTML标签。就是将所有的标签的Padding值和margin值都设置为0。本次网站开发的每个页面的背景、表格、超链接、图片和部分字体都使用的Css样式表进行规范的。
+        整个网站的所有的页面背景的统一Css样式如下：body { mArgin:0;PAdding: 0;font-size:12px; font-family:'microsoft yahei', '黑体';
+        line-height:1.5; color:#333;
+        }body表示对页面的body标签进行Css样式的约束。Margin属性对外边缘进行设置，Padding是对内边缘进行设置。Font-size是这是字体大小的。Font-famil是设置字体的。Color是设置字体的颜色。对网站页面中的所有的表格进行Css样式的代码如下：
+      </p>
+      <p> body { margin: 0; font-size: 12px; font-family: 'microsoft yahei', '黑体'; line-height: 1.5; }</p>
+      <p>body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, img, form, input, textarea, p, th, td, hr, button, font {
+        border: none; padding: 0; margin: 0; list-style: none; }</p>
+      <p>h1 { font-size: 30px; font-weight: normal; font-family: 'microsoft yahei', '黑体'; }</p>
+      <p>h2 { font-size: 14px; }</p>
+      <p>h3 { font-size: 14px; font-weight: normal; }</p>
+
+      a { color: #333; text-decoration: none; }
+      <h3>首页页面制作</h3>
+      <img src="./images/report1.jpg" width="300">
+      <p>
+        网站网页的头部首先显示网站的logo，并加上超级链接a标签，作为醒目的标题。然后网站的导航菜单并列的方式显示。根据网站统一性，网站的所有的头部都采用相同的结构方式。
+      </p>
+      <p>页面中部主要是用来向用户显示网站具体的内容信息。我们的网站网页，我们页面中部设置为两种结构，分别为左右部分或者上下部分。网站的首页中部采用上下结构，依次展示防疫的一些信息。具体效果图如下：</p>
+    </div>
+
+
+    <div class="reporttext">
+      <h3>抗疫人物页面制作</h3>
+      <img src="./images/report2.jpg" width="300">
+      <p>
+        抗疫人物主要是介绍此次疫情中的抗疫人物，查看对应的信息，这个页面主要是图文排列，使用img标签插入图片，这个页面具体放大图片的特效，当鼠标经过图片时，图片放大，这使用css来控制，当鼠标经过使用hover属性，通过transtion来实现动画效果，具体页面效果如图所示
+      </p>
+    </div>
+    <div class="reporttext">
+      <img src="./images/report3.jpg" width="300">
+      <h3>新冠介绍页面制作</h3>
+    
+      <p>
+        新冠介绍主要是介绍新冠的起源以及如何预防新冠，此页面不但运用了div还用了table表格来布局页面，页面中是用video插入了视频，页面的主要布局方式就是图文布局，具体效果如图：
+      </p>
+    </div>
+    <div class="reporttext">
+      <img src="./images/report4.jpg" width="300">
+      <h3>登陆注册页面制作</h3>
+    
+      <p>
+        当用游客进入网站注册页时，需要注册为会员，页面主要是是用input标签，通过设置input的type属性来区分输入的是文本还是密码，当用户输入信息后点击提交，首先要保证用户信息的有效性。防止用户恶意注册，所以我们使用JavaScript对用户的信息进行验证，使用js正则 表达式用户输入的信息是否合法。具体效果如图：
+      </p>
+    </div>
+    <div class="jieshaott">
+      遇到的问题
+
+    </div>
+    <div class="reporttext">
+ 
+   
+    
+      <p>
+        1.制作CSS样式的时候，如果将div块元素属性设置成了float浮动，很容易是浏览器产生不同的解析，网页产生不同的效果，网页由此变得十分混乱没有统一性，刚刚接触网页可能无从下手，其实这往往就是容器设置了float浮动，如果对每个html标签挨个寻找比较麻烦，我们可以清除浮动就能解决，具体解决方法如下 
+.clearfloat{content:”.”; display:block; height:0; clear:both; visibility:hidden; }  </p>
+<p>2.矢量图又叫向量图，他最大的特点是无论怎么放大，他的显示效果都不会变形。他其实是用一系列计算机指令来描述和记录图片，一张图片可以简单的理解为用点、线、面等到组成的，它所记录的是图片的的几何形状、线条粗细和色彩等。矢量图的文件大小往往都是存储量很小，特别适用于文字设计、图案设计、版式设计、标志设计、插图等。矢量图只能表示有规律的线条组成的图形，如工程图、三维造型或艺术字等； 常见的矢量图处理软件有CoreIDRAW、AutoCAD、Illustrator和FreeHand等。  </p>
+<p>3.网站兼容性测试主要检验网站能否在不同的客户浏览器中正常浏览。主要的方法是用多种Web浏览器测试网页.最典型的是ie浏览器和谷歌浏览器至少要保证自己的网页要在这两种浏览器中正常运行.解决方法我们按w3c标准编写页面代码  </p>
+<p>4.未解决问题：由于只有windows电脑，所以只只测试windows系统，对苹果系统和linux系统为进行测试，网站只是静态页面，如果想更加完善需要增加数据库后台管理 </p>       
+    </div>
+
+    <div class="jieshaott">
+      网站总结
+
+    </div>
+
+    <div class="reporttext">
+ 
+   
+    
+      <p>
+        很多时候只有当我们用心工作的时候才能发现工作的快乐，只有深入的了解客户，才能做出更加人性、更加符合用户体验的网站，这个网站只是前期构思所建，因为后期还会有更多的用户需求需要了解沟通，然后在这个基础上面对网站再做出一些改进。   </p>
+        <p>   对于网站的设计，在设计的过程中，我参考了很多相类似的网站，结合每一个网站的优点来设计出的网站界面，看起来既美观又大方，也借鉴他们的优点，设计出怎样的网站比较合理。通过了此次的设计与开发中，让我学到了很多的东西，锻炼了我分析与解决问题的能力，一个好的系统一定要在合理的规划下，才能在规定的时间内有序的完成。在该网站中应用到photoshop去处理图片，一个页面我们应该怎样去选择与处理图片，用后看过去才会比较舒服。经过了此次的网站设计自己的动手能力有明显的提高。但也有很多不足地方，由于时间上没有规划好，让该系统与之前的规划与设计存在一定的差距，比如模块不够完善。不管怎样，总结下来。此次的网站设计还是让我学习了很多东西。比如当你遇到事情的时候，千万不要过于心急，一定要让自己冷静下来，这样你才不会适得其反，有时一急就会下很多错误的决定，有时会为此付出很大的代价。不管过程遇到好的还是不好的，我们都应该记住，吸取教训。以防下次犯更大的错误。
+      </p>
+    </div>
+  </div>
+  <footer id="footer">
+
+
+    web网站作业：抗疫资讯网站
+  </footer>
+
+
+
+</body>
+
+</html>
